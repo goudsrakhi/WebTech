@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para::first-letter{
+            font-size: xx-large;
+            color: brown;
+        }
+        #para::first-line{
+            background-color: antiquewhite;
+        }
+        li::after{
+            content: " ✅";
+        }
+        li::before{
+            content: "WebTech ";
+            background-color: green;
+            color: white;
+        }
+        li::marker{
+            color: red;
+            font-size: x-large;
+        }
+        input::placeholder{
+            color: orchid;
+            background-color: aquamarine;
+        }
+        #para::selection{
+            color: chocolate;
+            background-color:black;
+        }
+    </style>
+</head>
+<body>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut id assumenda cumque rem facere, officiis asperiores quidem sed? Magni pariatur, beatae suscipit dolorem animi fugiat omnis corporis ut nesciunt! Nisi?</p>
+    <ul>
+        <li> HTML</li>
+        <li> CSS</li>
+        <li> JavaScript</li>
+    </ul>
+    <input type="text" placeholder="Enter Name">
+
+</body>
+</html>

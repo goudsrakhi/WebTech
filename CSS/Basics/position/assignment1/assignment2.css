@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container{
+    height: 440px;
+    width: 900px;
+    background-color:black;
+    position: relative;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 20px;
+}
+#c1{
+    height: 400px;
+    width: 200px;
+    position: relative;
+    /* background-color: aquamarine; */
+    top: 20px;
+    left: 20px;
+}
+#c2{
+    height: 400px;
+    width: 600px;
+    /* background-color: beige; */
+    position: relative;
+    top: 20px;
+    left: 40px;
+    border-radius: 20px;
+
+}
+#d1{
+    height: 190px;
+    /* width: 100%; */
+    /* background-color: chartreuse; */
+    border-radius: 20px;
+    display: flex;
+}
+#d2{
+    height: 190px;
+    width: 100%;
+    /* background-color:darkgoldenrod; */
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+#box1{
+    width: 200px;
+    height: 280px;
+    color: white;
+    background-color: blueviolet;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    padding: 20px;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: darkslateblue;
+    position: relative;
+    bottom: 80px;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 100px;
+    /* z-index: 1; */
+}
+.box{
+    height: 190px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    /* left: 20px; */
+    margin-right: 20px;
+    border-radius: 20px;
+ }
+ .b{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+ }
+ .b1{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: darkslateblue;
+    position: relative;
+    bottom: 110px;
+    padding: 20px;
+    color: white;
+ }
+ #cir{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+ }
+ i{
+    font-size: 50px;
+    color: black;
+ }
+ .day{
+    margin-bottom: 15px;
+    color: rgb(174, 168, 168);
+ }
+ .dot{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: rgb(174, 168, 168);
+ }
+ .sub{
+    margin-bottom: 25px;
+ }
+ .lw{
+    margin-top: 10px;
+    color: rgb(174, 168, 168);
+    font-size: small;
+ }

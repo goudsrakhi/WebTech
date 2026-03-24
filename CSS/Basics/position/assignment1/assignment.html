@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            height: 400px;
+            width: 400px;
+            margin: 100px auto;
+            display: flex;
+        }
+        #car1{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            border: 5px solid white;
+            border-radius: 20px;
+            /* top: 100px;
+            left: 100px; */
+        }
+        #car1:hover{
+            z-index: 1;
+        }
+        #car2{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 120px;
+            right: 500px;
+            z-index: 0; 
+            border: 5px solid white;
+            border-radius: 20px;
+        }
+        #car2:hover{
+            z-index: 1;
+        }
+        #car3{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 140px;
+            right: 450px;
+            border: 5px solid white;
+            border-radius: 20px;
+        }
+        #car3:hover{
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="../../../Assets/car1.webp" alt="" id="car1">
+        <img src="../../../Assets/car2.webp" alt="" id="car2">
+        <img src="../../../Assets/car3.avif" alt="" id="car3">
+    </div>
+</body>
+</html>

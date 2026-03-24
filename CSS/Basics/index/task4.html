@@ -1,0 +1,181 @@
+<!-- assignment -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #container{
+            height: 450px;
+            width: 750px;
+            margin: auto;
+            margin-top: 60px;
+            background-color: whitesmoke;
+            padding-top: 20px;
+            padding-left: 70px;
+            padding-right: 70px;
+            /* display: flex; */
+        }
+        #c1{
+            display: flex;
+            background-color: white;
+        }
+        #c2{
+            display: flex;
+            background-color: white;
+        }
+        #head{
+            color: black;
+            padding-top: 10px;
+            padding-left: 15px;
+            /* background-color: white; */
+    
+        }
+        #menu{
+            height: 30px;
+            width: 400px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            background-color: white;
+            padding-left: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+        #box1{
+            height: 350px;
+            width: 300px;
+            background-color: white;
+            padding: 30px;
+        }
+        /* #img{
+            height: 230px;
+            width: 100%;
+        } */
+        #pic1{
+            height: 230px;
+            width: 230px;
+            /* margin-top: 30px; */
+            border-radius: 10px;
+        }
+        #simg{
+            display: flex;
+        }
+        .pic{
+            height: 40px;
+            width: 40px;
+            border-radius: 5px;
+        }
+        .pic:hover{
+            height: 45px;
+            width: 45px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: orangered;
+            transition-duration: 2sec;
+        }
+        #pics{
+            margin-top: 15px;
+            height: 50px;
+            width: 230px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #box2{
+            height: 350px;
+            width: 300px;
+            background-color: white;
+            padding: 30px;
+        }
+        #para{
+            margin-top: 15px;
+            font-size: small;
+        }
+        #price{
+            margin-top: 10px;
+        }
+        #bottom{
+            display: flex;
+        }
+        #quantity{
+            height: 20px;
+            width: 70px;
+            background-color: gray;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            color: orangered;
+            font-size: small;
+            /* border-radius: 5px; */
+        }
+        #cart{
+            height: 23px;
+            width: 120px;
+            margin-top: 9px;
+            background-color: orangered;
+        }
+        button{
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="c1">
+        <h2 id="head">sneakers</h2>
+        <nav id="menu">
+            <a href="">Collections</a>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
+        <div style="margin-left: 50px;">
+            <i style="color: black;padding-top: 10px;" class="fa-solid fa-cart-arrow-down"></i>
+            <i style="color: black;padding-top: 10px;" class="fa-solid fa-circle-user"></i>
+        </div>
+        </div>
+        <div id="c2">
+            <div id="box1">
+                <!-- <div id="img"> -->
+                    <img id="pic1" src="../../Assets/sneakers.webp" alt="">
+                    <div id="simg">
+                        <nav id="pics">
+                            <img class="pic" src="../../Assets/sneakers.webp" alt="">
+                            <img class="pic" src="../../Assets/sneakers.webp" alt="">
+                            <img class="pic" src="../../Assets/sneakers.webp" alt="">
+                            <img class="pic" src="../../Assets/sneakers.webp" alt="">
+                        </nav>
+                    </div>
+                <!-- </div> -->
+            </div>
+            <div id="box2">
+                <small>SNEAKER COMPANY</small>
+                <h1>Fall Limited Edition Sneakers</h1>
+                <p id="para">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber sole, they'll withstand everything the weather can offer.</p>
+                <h2 id="price">$125.00     <span style="font-size: small;background-color: black;border-radius: 5px;color: white;">50%</span></h2>
+                <strike>$250.00</strike>
+                <div id="bottom">
+                <div id="quantity">
+                    <p><strong>-</strong></p>
+                    <p style="color: black;"><strong>0</strong></p>
+                    <p><strong>+</strong></p>
+                </div>
+                <button id="cart"><i class="fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

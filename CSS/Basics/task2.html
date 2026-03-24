@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        #container{
+            height: 450px;
+            width: 600px;
+            background-color: black;
+            display: flex;
+            margin: auto;
+            margin-top: 40px;
+        }
+        #container>#box1{
+            height: 100%;
+            width: 50%;
+            background-color: aqua;
+        }
+        #container>#box1+#box2{
+            height: 100%;
+            width: 50%;
+            background-color: whitesmoke;
+            padding: 30px;
+        }
+        #container #image{
+            height: 100%;
+            width: 100%;
+        }
+        #container #perfume{
+            margin-top: 20px;
+        }
+        #container #des{
+            margin-top: 20px;
+            line-height: 25px;
+        }
+        #container #price{
+            color: rgb(11, 87, 61);
+            margin-top: 25px;
+        }
+        #container #cart{
+            height: 50px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            color: white;
+            background-color: rgb(11, 87, 61);
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1">
+            <img id="image" src="../Assets/best-chanel-perfume-gabrielle-scaled.jpeg" alt="">
+        </div>
+        <div id="box2">
+            <h4>PERFUME</h4>
+            <h1 id="perfume">Gabrielle Essence Eau De Parfum</h1>
+            <p id="des">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANNEL</p>
+            <h1 id="price">$149.99   <span style="font-size: medium;color: rgb(147, 144, 140);"><strike>$169.99</strike></span></h1>
+            <button id="cart"><i class="fa-solid fa-cart-arrow-down"></i>Add to cart</button>
+        </div>
+    </div>
+</body>
+</html>

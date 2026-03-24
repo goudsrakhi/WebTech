@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height:400px;
+    width: 600px;
+    border: 5px solid black;
+    margin: 100px auto;
+    display: flex;
+    position: relative;
+    background-color: aqua;
+}
+#box1{
+    height: 150px;
+    width: 180px;
+    background-color: black;
+    border: 5px solid white;
+}
+#box2{
+    height: 150px;
+    width: 180px;
+    background-color: rebeccapurple;
+    /* position: absolute; */
+    top: 50px;
+    left: 100px;
+    position: relative;
+    z-index: 4;
+    border: 5px solid white;
+
+}
+#box3{
+    height: 150px;
+    width: 180px;
+    background-color: red;
+    z-index: 5;
+    border: 5px solid white;
+
+}

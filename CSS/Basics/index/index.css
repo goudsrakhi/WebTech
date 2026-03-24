@@ -1,0 +1,9 @@
+@import url("./index1.css");
+#external{
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+#priority{
+    color: yellow;
+    background-color: blue;
+}

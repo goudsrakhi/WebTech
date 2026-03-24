@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    #container{
+        height: 374px;
+        width: 850px;
+        margin: auto;
+        margin-top: 90px;
+        background-color: black;
+        display: flex;
+        border-radius: 10px;
+    }
+    #container>#box1{
+        height: 100%;
+        width : 50%;
+        background-color: rgb(32, 5, 58);
+        padding: 60px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    #container>#box1+#box2{
+        height: 100%;
+        width : 50%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #container img{
+        height: 100%;
+        width: 425px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #container #details{
+        color: white;
+        font-size: 28px;
+    }
+    #container #para{
+        color: rgb(125, 122, 122);
+        font-size: 13px;
+        margin-top: 25px;
+        line-height: 25px;
+    }
+    #bottom{
+        height: 70px;
+        width: 325px;
+        margin-top: 60px;
+        display: flex;
+    }
+    #bottom .bx{
+        height: 100%;
+        width: 33.33%;
+        color: white;
+    }
+    .base{
+        color: rgb(125, 122, 122);
+        font-size: x-small;
+        margin-top: 5px;
+    }
+</style>
+<body>
+    <div id="container">
+        <div id="box1">
+            <h1 id="details">Get <span style="color:rgb(120, 66, 171);">insights</span> that help your business grow.</h1>
+            <p id="para">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+            <div id="bottom">
+                <div class="bx">
+                    <h3>10k+</h3>
+                    <p class="base">COMPANIES</p>
+                </div>
+                <div class="bx">
+                    <h3>314</h3>
+                    <p class="base">TEMPLATES</p>
+                </div>
+                <div class="bx">
+                    <h3>12M+</h3>
+                    <p class="base">QUERIES</p>
+                </div>
+            </div>
+        </div>
+        <div id="box2">
+            <img src="../../Assets/officemeet.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

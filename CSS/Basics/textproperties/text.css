@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#para{
+    margin: 50px;
+    padding: 30px;
+    font-size: 30px;
+    color: red;
+    background-color: yellow;
+    border-radius: 30px;
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: justify; */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: start; */
+
+    /* letter-spacing: 10px; */
+    line-height: 50px;
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+
+    /* word-spacing: 100px; */
+
+    /* text-indent: 200px; */
+
+    /* text-decoration-line: line-through; */
+    /* text-decoration-line: overline; */
+    /* text-decoration-line: underline; */
+    /* text-decoration-line: underline overline; */
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-color: white; */
+    /* text-decoration-thickness: 5px; */
+    text-decoration: 5px solid overline underline green;
+}
+h1{
+    margin: 100px;
+    font-size: 60px;
+    letter-spacing: 10px;
+    /* text-shadow: 5px 5px 3px red; */
+    text-shadow: -5px -5px 3px red;
+
+    writing-mode: vertical-lr;
+}

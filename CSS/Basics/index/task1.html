@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        #container{
+            height: 500px;
+            width: 1000px;
+            background-color: black;
+            margin: 40px auto;
+            display: flex;
+        }
+        #container>#box1{
+            height: 500px;
+            width: 33.33%;
+            background-color: goldenrod;
+            padding: 50px;
+        }
+        #container>#box1+#box2{
+            height: 500px;
+            width: 33.33%;
+            background-color: rgb(54, 131, 169);
+            padding: 50px;
+        }
+        #box2 .circle{
+            background-color: rgb(26,62,87);
+        }
+        #container #box3{
+            height: 500px;
+            width: 33.33%;
+            background-color: rgb(117, 57, 215);
+            padding: 50px;
+        }
+        #box3 .circle{
+            background-color: rgb(16,46,47);
+        }
+        #box1 .circle{
+            background-color: rgb(176, 146, 90);
+        }
+        #container .circle{
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+        }
+        i{
+            font-size: 30px;
+            margin-left: -20px;
+            color: white;
+        }
+        #icon_circle{
+            display: flex;
+            align-items: center;
+        }
+        #container #car_name{
+            margin-top: 35px;
+            color: white;
+        }
+        #container #car_details{
+            color: white;
+            margin-top: 35px;
+            line-height: 25px;
+        }
+        #container #learn_btn{
+            margin-top: 90px;
+            height: 50px;
+            width: 150px;
+            border-radius: 50px;
+            border: none;
+            font-size: 16px;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1">
+            <div id="icon_circle">
+                <div class="circle"></div>
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+             <h1 id="car_name">SEDAN</h1>
+             <p id="car_details">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro nesciunt sed odit, cupiditate corrupti incidunt.
+             </p>
+             <button id="learn_btn" style="color: goldenrod;">Learn More</button>
+        </div>
+        <div id="box2">
+            <div id="icon_circle">
+                <div class="circle"></div>
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+             <h1 id="car_name">SUVS</h1>
+             <p id="car_details">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro nesciunt sed odit, cupiditate corrupti incidunt.
+             </p>
+             <button id="learn_btn" style="color:  rgb(54, 131, 169);">Learn More</button>
+        </div>
+        <div id="box3">
+            <div id="icon_circle">
+                <div class="circle"></div>
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+             <h1 id="car_name">LUXURY</h1>
+             <p id="car_details">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro nesciunt sed odit, cupiditate corrupti incidunt.
+             </p>
+             <button id="learn_btn" style="color: rgb(117, 57, 215);">Learn More</button>
+        </div>
+    </div>
+</body>
+</html>
