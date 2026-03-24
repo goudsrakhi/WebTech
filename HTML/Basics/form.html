@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Information</legend>
+            <label for="username">Username</label>
+            <input id="username" type="text" name="username" placeholder="Enter Username" value="rakesh" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="usermail" placeholder="Enter Email" required>
+            <br><br>
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" pattern="[a-zA-Z0-9$@]{6,10}" placeholder="Enter Password" required>
+            <br><br>
+            <label for="">Gender</label>
+            <input type="radio" name="gender" value="male">
+            <label for="">Male</label>
+            <input type="radio" name="gender" value="female" disabled>
+            <label for="">Female</label>
+            <input type="radio" name="gender" value="others" disabled>
+            <label for="">Others</label>
+            <br><br>
+            <label for="">Skills</label>
+            <input type="checkbox" name="skills" value="html" checked>
+            <label for="">HTML</label>
+            <input type="checkbox" name="skills" value="css">
+            <label for="">CSS</label>
+            <input type="checkbox" name="skills" value="js">
+            <label for="">JavaScript</label>
+            <br><br>
+            <label for="">Qualification</label>
+            <select name="qualification" id="">
+                <optgroup label="B.Tech">
+                    <option value="mech">Mechanical</option>
+                    <option value="civil">Civil</option>
+                    <option value="cse">Computer Sceince</option>
+                    <option value="eee">Electrical and Electronic</option>
+                </optgroup>
+                <optgroup label="B.Sc">
+                    <option value="phy">Physics</option>
+                    <option value="chem">Chemistry</option>
+                    <option value="maths">Mathematics</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label for="">Date of Joining</label>
+            <input type="date" min="2026-01-01" max="2026-04-01">
+            <br><br>
+            <label for="">Experience</label>
+            <input type="range" name="exp" min="0" max="20" step="5">
+            <br><br>
+            <label for="">Address</label>
+            <textarea name="" rows="5" cols="30" id=""></textarea>
+            <br><br>
+            <label for="">Skills</label>
+            <input list="skill">
+            <datalist id="skill">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JavaScript</option>
+            </datalist>
+            <br><br>
+            <label for="">About yourself</label>
+            <input type="text" minlength="20" maxlength="300">
+            <br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

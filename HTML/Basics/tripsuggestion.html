@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 950px;
+            width: 700px;
+            background-color:white;
+            margin-left: 300px;
+            margin-right: 300px;
+            border: 1px,solid,black;
+        }
+        #head{
+            width: 100%;
+            height: 35px;
+            background-color: rgb(128, 49, 76);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #body{
+            margin:5px;
+        }
+        p{
+            text-align: center;
+            font-size: 13px;
+        }
+        #video{
+            height: 150px;
+            width: 300px;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        img{
+            margin-left: 275px;
+            margin-right: 225px;
+        }
+        audio{
+            margin-left: 200px;;
+        }
+        #map{
+            height: 300px;
+            width: 500px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="head">
+            <h1>TRIP SUGGESTIONS</h1>
+        </div>
+        <div id="body">
+            <p>Hello there! We have come up with a new hidden place near bangalore for your trip, i.e., Naadi Hills!!. So people who never visited the place, staying in bangalore, you are missing out on something really cool. Here is a video from our recent visit</p>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cPhF4UNpm2g?si=qOT0d4ZLcgUmB1Wh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p><i>So??Are u ready to visit this place and make more memories.... WE have exciting offers in our website! Scan below to know more</i></p>
+        <img src=" https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" alt="">
+        <p>Here is a small audio clip,shared by our visitors,sharing their own experiences</p>
+        <audio src="../Assets/aberrantrealities-organic-flow-1015-remastered-485950.mp3"
+        controls></audio>
+        <p>Location details mentioned below!</p>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31051.794455470605!2d77.64841711650679!3d13.382930916873386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1e445ebfcea17%3A0x1639f72959196608!2sNandi%20Hills%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1772674605122!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>WE will be waiting...get ready to have life time experiences,with your frieNds Register eartly!!!(offer ends soon!)</p>
+    </div>
+</body>
+</html>
