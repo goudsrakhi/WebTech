@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Assignments/flashcard.css">
+</head>
+<body>
+    <div id="container">
+        <div id="box1">
+            <div id="logo">
+                <div id="cir"></div>
+                <h3>Flashcard</h3>
+            </div>
+            <div id="big">
+                <div id="b1">
+                    <div id="cat">All Categories ^</div>
+                    <input type="checkbox" class="hide">
+                    <label for="hide" class="hide">Hide Mastered</label>
+                    <div id="shuffle">Shuffle</div>
+                </div>
+                <div id="b2">
+                    <div id="webdev">
+                        <div id="web"><small>Web Development</small></div>
+                        <h1>What does HTML stand for?</h1>
+                        <small>Click to reveal answer</small>
+                        <div id="range">
+                            <div></div>
+                            <small>0/5</small>
+                        </div>
+                    </div>
+                    <div id="iknowmore">
+                        <button class="button one">I know this</button>
+                        <button class="button two">Reset Progress</button>
+                    </div>
+                </div>
+                <div id="b3">
+                    <div id="prev">< Previous</div>
+                    <div id="card"><small>Card 1 of 40</small></div>
+                    <div id="nxt">Next ></div>
+                </div>
+            </div>
+        </div>
+        <div id="box2">
+            <div id="study">
+                <div id="mode">Study Mode</div>
+                <small>All cards</small>
+            </div>
+            <div id="small">
+                <h3>Study Statistics</h3>
+                <div class="c">
+                    <div class="left"><small>Total Cards</small>
+                    <h2>40</h2></div>
+                    <div class="right"><i class="fa-solid fa-layer-group"></i></div>
+                </div>
+                    
+                <div class="c">
+                    <div class="left"><small>Mastered</small>
+                    <h2>40</h2></div>
+                    <div style="background-color: aquamarine;" class="right"><i  class="fa-solid fa-layer-group"></i></div>
+                </div>
+                <div class="c">
+                    <div class="left"><small>In Progress</small>
+                    <h2>40</h2></div>
+                    <div style="background-color: pink;" class="right"><i  class="fa-solid fa-layer-group"></i></div>
+                </div>
+                <div class="c">
+                    <div class="left"><small>Not Started</small>
+                    <h2>40</h2></div>
+                    <div style="background-color: palevioletred ;" class="right"><i  class="fa-solid fa-layer-group"></i></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

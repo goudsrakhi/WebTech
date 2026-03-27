@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(44, 42, 42);
+}
+#container{
+    height: 500px;
+    width: 1000px;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+}
+#box1{
+    height: 100%;
+    width: 650px;
+    padding: 10px;
+    padding-left: 50px;
+}
+#logo{
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+#cir{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 1px solid black;
+
+}
+#big{
+    height: 400px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+#b1{
+    border-radius: 15px 15px 0 0;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+#b2{
+    height: 300px;
+    border: 1px solid black;
+}
+#b3{
+    border-radius: 0 0 15px 15px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#webdev{
+    height: 200px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: rgb(228, 146, 187);
+}
+#cat{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 25px;
+    width: 110px;
+    flex-basis: 20%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide{
+    margin-right: 7px;
+}
+#shuffle{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 25px;
+    width: 70px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+}
+#webdev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#web{
+    height: 20px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-start;
+    margin-top: 10px;
+    background-color: white;
+}
+#webdev>h1{
+    margin-top: 40px;
+}
+#range{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+#range>div{
+    height: 5px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.button{
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+}
+#iknowmore{
+    padding-left: 30%;
+}
+.one{
+    background-color: gold;
+}
+#prev,#nxt{
+    width: 75px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box2{
+    height: 100%;
+    width: 350px;
+    padding: 10px;
+    padding-right: 50px;
+    position: relative;
+}
+#study{
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    margin-left: 135px;
+    border: 1px solid black;
+}
+#mode{
+    height: 25px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+#small{
+    height: 400px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#small>h3{
+    align-self: flex-start;
+    margin-left: 15px;
+}
+.c{
+    height: 80px;
+    width: 90%;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+}
+.c>.left{
+    height: 100%;
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.c>.right{
+    height: 100%;
+    font-size: large;
+    flex-basis: 30%;
+    background-color: skyblue;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
